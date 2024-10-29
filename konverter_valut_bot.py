@@ -28,7 +28,6 @@ def change_uzs(message):
     uzs = float(message.text)
     result = uzs // 12600
     bot.send_message(user_id, f"{uzs} сум = {result}$")
-
 def change_usd(message):
     user_id = message.from_user.id
     usd = float(message.text)
